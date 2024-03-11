@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Display header
+echo "USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND"
+
+# Display process hierarchy with all users and without TTY
+ps aux --forest
